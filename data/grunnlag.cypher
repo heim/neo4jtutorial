@@ -144,6 +144,7 @@ CREATE (xx6:Person {name: "Olav Terje Bergo", address: "Bergen"})
 CREATE (xx6)-[:DONATED {amount: 10000}]->(ap)
 
 CREATE (aaAp:LocalParty {name: "Aust-Agder Arbeiderparti"})
+CREATE(aap)-[:LOCAL_DIVISON_OF]->(ap)
 CREATE (xx7:Contributor {name: "LO lokalorganisasjon i Aust-Agder", address: "Torvet 10, 4836 Arendal"})
 CREATE (xx7)-[:DONATED {amount: 15000}]->(ap)
 
