@@ -1,21 +1,21 @@
 #! /bin/bash
-cp -r ../neo4j neo4j01
-cp -r ../neo4j neo4j02
-cp -r ../neo4j neo4j03
-cp -r ../neo4j neo4j04
-cp -r ../neo4j neo4j05
-cp -r ../neo4j neo4j06
-cp -r ../neo4j neo4j07
-cp -r ../neo4j neo4j08
-cp -r ../neo4j neo4j09
-cp -r ../neo4j neo4j10
-cp -r ../neo4j neo4j11
-cp -r ../neo4j neo4j12
-cp -r ../neo4j neo4j13
-cp -r ../neo4j neo4j14
-cp -r ../neo4j neo4j15
-cp -r ../neo4j neo4j16
-cp -r ../neo4j neo4j17
-cp -r ../neo4j neo4j18
-cp -r ../neo4j neo4j19
-cp -r ../neo4j neo4j20
+touch neo4j01/data/.gitkeep
+touch neo4j02/data/.gitkeep
+touch neo4j03/data/.gitkeep
+touch neo4j04/data/.gitkeep
+touch neo4j05/data/.gitkeep
+touch neo4j06/data/.gitkeep
+touch neo4j07/data/.gitkeep
+touch neo4j08/data/.gitkeep
+touch neo4j09/data/.gitkeep
+touch neo4j10/data/.gitkeep
+touch neo4j11/data/.gitkeep
+touch neo4j12/data/.gitkeep
+touch neo4j13/data/.gitkeep
+touch neo4j14/data/.gitkeep
+touch neo4j15/data/.gitkeep
+touch neo4j16/data/.gitkeep
+touch neo4j17/data/.gitkeep
+touch neo4j18/data/.gitkeep
+touch neo4j19/data/.gitkeep
+touch neo4j20/data/.gitkeep
