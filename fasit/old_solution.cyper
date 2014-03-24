@@ -54,6 +54,12 @@ RETURN m.name as name
 
 Hvem har støttet et parti flere ganger?
 Alle som har støttet nøyaktig samme partier som Christen Sveaas
+MATCH (:`Person` {name:"Christen Sveaas"}) --> (o:`Party`)
+WITH count(o) as parties
+MATCH (p:`Person` {name:"Christen Sveaas"}) --> (t:`Party`) <-- otherperson
+with parties, count(t) as leng, otherperson
+WHERE parties=leng
+return otherperson;
 
 
 
@@ -63,5 +69,3 @@ Viderekommende:
 3. Finn hvilket parti som har flest med verv i partiet som givere
 4. Finn hvilket parti som får mest/minst fra de med verv
 5. Har noen med verv gitt til andre partier?
-
-
