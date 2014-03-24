@@ -12,9 +12,6 @@ MATCH (n {name: "Christen Sveaas"})-[:DONATED]->(p)
 MATCH (n:Person)-[donations:DONATED]->(p:Party)
 
 
-
-
-
 ## Intermediate
 4. What party has the highest number of donators.
 5. And if you connect the local parties?
